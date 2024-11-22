@@ -1,10 +1,10 @@
 # VQ-BeT TinyGrad Notebook
 
-This repository contains a Jupyter notebook implementing VQ-BeT (Vector Quantized Behavior Transformer) using TinyGrad.
+This repository contains a Jupyter notebook implementing VQ-BeT (Vector Quantized Behavior Transformers) using TinyGrad.
 
 ## What is VQ-BeT?
 
-VQ-BeT is an advanced AI model for robot learning. It combines vector quantization and transformer architectures to help robots learn complex behaviors from demonstrations. VQ-BeT processes sequences of actions and observations, encoding them into discrete tokens. These tokens are then used to train a transformer model, which can generate new sequences of actions for the robot to perform. This approach allows robots to learn and generalize from a small number of demonstrations, making it efficient for various robotic tasks.
+VQ-BeT is an advanced AI model for robot learning. It combines vector quantization and transformer architectures to help robots learn complex behaviors from demonstrations. VQ-BeT processes sequences of actions and observations, encoding them into discrete tokens. These tokens are then used to train a transformer model, which can generate new sequences of actions for the robot to perform. This approach allows robots to learn and generalize from a small number of demonstrations, making it efficient for various robotic tasks. The link to the original repo is [here](https://sjlee.cc/vq-bet/).
 
 ## Notebook Structure
 
@@ -38,6 +38,3 @@ To run this notebook:
    jupyter-lab
    ```
 6. Open the VQ-BeT notebook and start exploring!
-
-Citations:
-[1] https://github.com/mdaiter/vbet-tinygrad-notebook
